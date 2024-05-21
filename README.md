@@ -30,7 +30,7 @@ API: https://randomuser.me/documentation
 ## mobile
 Pré-requisitos: Node.js(LTS), npm / yarn
 
-## no aparelho aparelho físico
+## No aparelho aparelho físico
 Pré-requisito: App Expo Go.
 
 Ou emuladores Android / IOS.
