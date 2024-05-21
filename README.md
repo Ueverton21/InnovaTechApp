@@ -8,8 +8,8 @@ Innovate Tech App é uma aplicativo mobile construído utilizando o React Native
 O aplicativo tem uma listagem de pessoas que vem de uma API, essa listagem terá algumas opções de filtro e visualização de detalhes.
 
 ## Detalhes 
-No loading que carrega mais pessoas implementei uma lógica para só permitir quano não estivesse nenhum filtro aplicado na lista.
-O Zustand foi utilizado para gerenciamento de estados.
+No loading que carrega mais pessoas implementei uma lógica para só permitir quando não tiver nenhum filtro aplicado na lista.
+O Zustand foi utilizado para gerenciamento de estados. Por ser um aplicativo pequeno ele se encaixa muito bem no projeto.
 
 API: https://randomuser.me/documentation
 
