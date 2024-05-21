@@ -17,6 +17,7 @@ import { Picker } from "@react-native-picker/picker";
 import { ModalPeople } from "../../components/modal";
 
 import { styles } from "./styles";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 export default function Index() {
   //hook com os estados globais
   const people_store = usePeopleStore();

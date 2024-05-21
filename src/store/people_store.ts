@@ -32,6 +32,8 @@ const usePeopleStore = create<PeopleStore>()((set) => ({
     const peopleService = new PeopleService();
     const storagePeoples = await AsyncStorage.getItem("@peoples");
 
+    const peoples = await peopleService.getPeoples(page);
+
     set((state) => {
       /*verifica se o storage já tem a listagem de pessoas e se a lista está 
       vazia, se tiver passa o valor para o estado e não chama a API.
@@ -43,10 +45,8 @@ const usePeopleStore = create<PeopleStore>()((set) => ({
       }
       //Se a lista tiver vazia irá salvar no storage as primeiras 20 pessoas
       if (state.peoples.length == 0) {
-        peopleService.getPeoples(page).then((peoples) => {
-          AsyncStorage.setItem("@peoples", JSON.stringify(peoples));
-          return { peoples: peoples, peoplesFiltered: peoples };
-        });
+        AsyncStorage.setItem("@peoples", JSON.stringify(peoples));
+        return { peoples: peoples, peoplesFiltered: peoples };
       }
 
       //No último caso é pra carregar mais 20 pessoas
