@@ -14,7 +14,7 @@ O Zustand foi utilizado para gerenciamento de estados. Por ser um aplicativo peq
 API: https://randomuser.me/documentation
 
 ## Layout mobile
-![Mobile 1](https://github.com/Ueverton21/assets/blob/main/IMG_7061.PNG) ![Mobile 2](https://github.com/Ueverton21/assets/blob/main/IMG_7062.PNG)
+![Mobile 1](https://github.com/Ueverton21/assets/blob/main/IMG_7064.PNG) ![Mobile 2](https://github.com/Ueverton21/assets/blob/main/IMG_7065.PNG)
 
 
 # Tecnologias utilizadas
